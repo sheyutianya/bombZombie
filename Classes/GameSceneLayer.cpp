@@ -3,6 +3,7 @@
 #include "GameFaildLayer.h"
 #include "GameVictoryLayer.h"
 #include "PauseLayer.h"
+#include <vector>
 
 #define PT_RATIO 32
 USING_NS_CC;
