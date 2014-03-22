@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <filePath>E:\cocos2d-x-2.2\cocos2d-x-2.2\projects\dnf1\pause\pause.xml.ui</filePath>
+  <Version>1.1.0.0</Version>
+  <Name>pause</Name>
+  <ProjectDir>E:\cocos2d-x-2.2\cocos2d-x-2.2\projects\dnf1\pause</ProjectDir>
+  <JsonFileName>pause.json</JsonFileName>
+  <Resources>E:\cocos2d-x-2.2\cocos2d-x-2.2\projects\dnf1\pause\Resources</Resources>
+  <JsonFolder>E:\cocos2d-x-2.2\cocos2d-x-2.2\projects\dnf1\pause\Json</JsonFolder>
+  <JsonList>
+    <string>pause_1.json</string>
+  </JsonList>
+  <imageFileList>
+    <string>pause0.plist</string>
+  </imageFileList>
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>pause_1.json</CurrentUIJson>
+  <CanvasSize>
+    <Width>800</Width>
+    <Height>480</Height>
+  </CanvasSize>
+</UIProject>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="25" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tiled" tilewidth="32" tileheight="32">
+  <image source="tiled.png" width="192" height="192"/>
+ </tileset>
+ <layer name="mpic" width="25" height="15">
+  <data encoding="base64" compression="zlib">
+   eJzjYGBg4EDDfGRgdDPwYQUG8oA8jc0n1h5c5ksCMRMQi2DBMiTYg898Qv4TxmInuj2cFJiPD7ATYQc7HjlkgOwPURLt4GWgLA0ghxcxbsUHGBkgaQKGpZDkYH4hxQ5FBsy0hZ53FaBqJRmo5w9eqNn8SGLSDKj5n1I7CAFYeDHREJNSjg12DACHPAje
+  </data>
+ </layer>
+ <objectgroup name="object" width="25" height="15">
+  <object name="circle" x="325" y="77">
+   <properties>
+    <property name="sprite_name" value="circle.png"/>
+   </properties>
+  </object>
+  <object name="monster" x="363" y="77">
+   <properties>
+    <property name="enemy" value="true"/>
+    <property name="plistname" value="monster_1"/>
+   </properties>
+  </object>
+  <object name="monster" x="405" y="75">
+   <properties>
+    <property name="enemy" value="true"/>
+    <property name="plistname" value="monster_3"/>
+   </properties>
+  </object>
+  <object name="monster" x="451" y="77">
+   <properties>
+    <property name="enemy" value="false"/>
+    <property name="plistname" value="monster_5"/>
+   </properties>
+  </object>
+  <object name="monster" x="412" y="276">
+   <properties>
+    <property name="enemy" value="true"/>
+    <property name="plistname" value="monster_1"/>
+   </properties>
+  </object>
+  <object name="monster" x="459" y="275">
+   <properties>
+    <property name="enemy" value="true"/>
+    <property name="plistname" value="monster_2"/>
+   </properties>
+  </object>
+  <object name="wood" x="564" y="178">
+   <properties>
+    <property name="sprite_name" value="wood.png"/>
+   </properties>
+  </object>
+  <object name="wood" x="572" y="248">
+   <properties>
+    <property name="sprite_name" value="wood.png"/>
+   </properties>
+  </object>
+  <object name="wood" x="561" y="369">
+   <properties>
+    <property name="sprite_name" value="wood.png"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="ground" width="25" height="15">
+  <object x="30" y="160">
+   <polyline points="0,0 131,-132 546,-133 673,0 677,64 708,97 709,127 646,188 738,188 740,227 -4,227 -1,1"/>
+  </object>
+  <object x="193" y="250">
+   <polyline points="0,0 0,-63 91,-153 290,-153 319,-125 128,-127 59,-56 60,-23 34,4 0,2"/>
+  </object>
+  <object x="512" y="128">
+   <polyline points="0,0 98,1 125,27 2,26 -1,1"/>
+  </object>
+  <object x="515" y="192">
+   <polyline points="0,0 121,1 121,27 0,27 -1,0"/>
+  </object>
+  <object x="515" y="257">
+   <polyline points="0,0 126,-1 155,28 127,58 89,58 89,90 0,90 0,59 -134,59 -162,32 -3,33 -1,0"/>
+  </object>
+ </objectgroup>
+</map>

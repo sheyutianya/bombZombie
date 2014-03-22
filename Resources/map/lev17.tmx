@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="25" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tiled" tilewidth="32" tileheight="32">
+  <image source="tiled.png" width="192" height="192"/>
+ </tileset>
+ <layer name="mpic" width="25" height="15">
+  <data encoding="base64" compression="zlib">
+   eJzVVE0LgCAMXV6yi1289AFK//9HluRgydJpXho8lOHbY29DDQD6goknhREg5bzBwx2OcDFXCieoPwlr5WIUaiyEE+5rPFWEJTiStxKvAm8mPOpZzjdp/RavsD/p7Fs0Qp+eyfXQwDnltGs1NnjOGjmog57thMPtWE0fdBcs8PvwVaMUA1O/p0Zpj1UHSP+tP+MExf0J+A==
+  </data>
+ </layer>
+ <objectgroup name="object" width="25" height="15">
+  <object name="monster" x="515" y="225" width="29" height="25">
+   <properties>
+    <property name="enemy" value="true"/>
+    <property name="plistname" value="monster_1"/>
+   </properties>
+  </object>
+  <object name="monster" x="303" y="61" width="29" height="28">
+   <properties>
+    <property name="enemy" value="false"/>
+    <property name="plistname" value="monster_5"/>
+   </properties>
+  </object>
+  <object name="monster" x="300" y="217" width="29" height="28">
+   <properties>
+    <property name="enemy" value="false"/>
+    <property name="plistname" value="monster_5"/>
+   </properties>
+  </object>
+  <object name="monster" x="479" y="349" width="29" height="28">
+   <properties>
+    <property name="enemy" value="false"/>
+    <property name="plistname" value="monster_5"/>
+   </properties>
+  </object>
+  <object name="monster" x="40" y="349" width="29" height="28">
+   <properties>
+    <property name="enemy" value="false"/>
+    <property name="plistname" value="monster_5"/>
+   </properties>
+  </object>
+  <object name="fire" x="101" y="351" width="25" height="24"/>
+  <object name="fire" x="101" y="351" width="25" height="24"/>
+  <object name="fire" x="134" y="352" width="25" height="24"/>
+  <object name="fire" x="165" y="352" width="25" height="24"/>
+  <object name="fire" x="198" y="352" width="25" height="24"/>
+  <object name="fire" x="232" y="352" width="25" height="24"/>
+  <object name="fire" x="264" y="351" width="25" height="24"/>
+  <object name="fire" x="294" y="352" width="25" height="24"/>
+  <object name="fire" x="328" y="351" width="25" height="24"/>
+  <object name="fire" x="357" y="353" width="25" height="24"/>
+  <object name="fire" x="389" y="352" width="25" height="24"/>
+  <object name="fire" x="421" y="353" width="25" height="24"/>
+  <object name="monster" x="32" y="93" width="29" height="25">
+   <properties>
+    <property name="enemy" value="true"/>
+    <property name="plistname" value="monster_1"/>
+   </properties>
+  </object>
+  <object name="wood" x="391" y="63" width="23" height="28">
+   <properties>
+    <property name="sprite_name" value="box.png"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="ground" width="25" height="15">
+  <object x="28" y="63">
+   <polyline points="0,0 35,-31 68,-32 99,-3 164,-1 195,-29 483,-31 515,0 516,32 451,99 412,100 385,129 417,163 452,129 544,129 612,195 613,259 581,260 583,291 551,323 0,325 1,91 63,93 69,37 39,68 1,67 1,0"/>
+  </object>
+  <object x="193" y="95">
+   <polyline points="0,0 33,33 60,5 249,4 224,31 124,32 95,63 -3,64 -32,35 0,0"/>
+  </object>
+  <object x="255" y="257">
+   <polyline points="0,0 96,-1 127,-32 191,29 227,31 253,0 293,0 323,27 292,29 256,61 128,63 99,29 -31,31 -1,0"/>
+  </object>
+ </objectgroup>
+</map>

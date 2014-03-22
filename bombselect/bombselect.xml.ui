@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <filePath>G:\cocos2d-2.0-x-2.0.3\cocos2d-x-2.2\cocos2d-x-2.2\project\dnf001\bombselect\bombselect.xml.ui</filePath>
+  <Version>1.1.0.0</Version>
+  <Name>bombselect</Name>
+  <ProjectDir>G:\cocos2d-2.0-x-2.0.3\cocos2d-x-2.2\cocos2d-x-2.2\project\dnf001\bombselect</ProjectDir>
+  <JsonFileName>bombselect.json</JsonFileName>
+  <Resources>G:\cocos2d-2.0-x-2.0.3\cocos2d-x-2.2\cocos2d-x-2.2\project\dnf001\bombselect\Resources</Resources>
+  <JsonFolder>G:\cocos2d-2.0-x-2.0.3\cocos2d-x-2.2\cocos2d-x-2.2\project\dnf001\bombselect\Json</JsonFolder>
+  <JsonList>
+    <string>bombselect_1.json</string>
+  </JsonList>
+  <imageFileList />
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>bombselect_1.json</CurrentUIJson>
+  <CanvasSize>
+    <Width>800</Width>
+    <Height>480</Height>
+  </CanvasSize>
+</UIProject>

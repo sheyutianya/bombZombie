@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="25" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tiled" tilewidth="32" tileheight="32">
+  <image source="tiled.png" width="192" height="192"/>
+ </tileset>
+ <layer name="mipc" width="25" height="15">
+  <data encoding="base64" compression="zlib">
+   eJzVlMEKgCAMQIeXVodOIVSHrP//yBQcDVPTlYcGD2LKnhsaAgBaxoBYTgJ6DNxjiOQk0Vn6xNrGvlfLFOGodMyWRXTSK/aI1znQn8nNzrx0hKEhPytpuF74PJE59Mcuqkl96EYOaORIzarUIbl7vI+S+qn3mvOX3iuqH+51eeWhf0boofehHkBGKl+754+cyAAISw==
+  </data>
+ </layer>
+ <objectgroup name="object" width="25" height="15">
+  <object name="fire" x="35" y="348" width="26" height="28"/>
+  <object name="fire" x="67" y="349" width="26" height="28"/>
+  <object name="fire" x="103" y="348" width="26" height="28"/>
+  <object name="monster" x="389" y="355" width="26" height="27">
+   <properties>
+    <property name="enemy" value="true"/>
+    <property name="plistname" value="monster_1"/>
+   </properties>
+  </object>
+  <object name="fire" x="447" y="354" width="26" height="28"/>
+  <object name="monster" x="740" y="226" width="26" height="27">
+   <properties>
+    <property name="enemy" value="true"/>
+    <property name="plistname" value="monster_1"/>
+   </properties>
+  </object>
+  <object name="monster" x="737" y="130" width="26" height="27">
+   <properties>
+    <property name="enemy" value="true"/>
+    <property name="plistname" value="monster_1"/>
+   </properties>
+  </object>
+  <object name="monster" x="547" y="321" width="26" height="27">
+   <properties>
+    <property name="enemy" value="false"/>
+    <property name="plistname" value="monster_5"/>
+   </properties>
+  </object>
+  <object name="monster" x="731" y="353" width="26" height="27">
+   <properties>
+    <property name="enemy" value="false"/>
+    <property name="plistname" value="monster_5"/>
+   </properties>
+  </object>
+  <object name="iron_v" x="254" y="186" width="22" height="25">
+   <properties>
+    <property name="bottom" value="100"/>
+    <property name="speed" value="2"/>
+    <property name="top" value="450"/>
+   </properties>
+  </object>
+  <object name="iron_v" x="548" y="163" width="22" height="25">
+   <properties>
+    <property name="bottom" value="180"/>
+    <property name="speed" value="2"/>
+    <property name="top" value="450"/>
+   </properties>
+  </object>
+  <object name="monster" x="35" y="96" width="26" height="27">
+   <properties>
+    <property name="enemy" value="true"/>
+    <property name="plistname" value="monster_1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="ground" width="25" height="15">
+  <object x="30" y="64">
+   <polyline points="0,0 34,-33 159,-34 161,5 190,31 190,-33 741,-34 741,98 610,100 640,129 742,128 742,198 610,199 639,225 741,223 740,325 643,325 577,255 544,291 476,292 446,322 353,324 353,289 387,256 352,223 257,320 0,323 1,93 72,94 99,65 65,30 34,66 1,67 -2,2"/>
+  </object>
+  <object x="287" y="94">
+   <polyline points="0,0 31,-28 225,-29 193,0 -1,2"/>
+  </object>
+  <object x="611" y="99">
+   <polyline points="0,0 58,-1 28,30 -3,2"/>
+  </object>
+ </objectgroup>
+</map>

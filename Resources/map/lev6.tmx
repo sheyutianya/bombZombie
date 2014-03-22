@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="25" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tiled" tilewidth="32" tileheight="32">
+  <image source="tiled.png" width="192" height="192"/>
+ </tileset>
+ <layer name="mpic" width="25" height="15">
+  <data encoding="base64" compression="zlib">
+   eJzjYGBg4ABiPiyYAwvGpQ6bOLIZnAzYATuafn4c6rhwiEsSaQcuOWTAC8QiUCyDJC5PhB3yRNqBCyD7gw/JHejuwRUO2IA0mhmw+CDkTlzhQCwgNrwpAbSwAxZeUjS0AwZg8UgtOxgZMNMMLC9Ryw58aY/WdiDnDyYKMS4zsJV3QxkDAJUWBwc=
+  </data>
+ </layer>
+ <objectgroup name="ground" width="25" height="15">
+  <object x="62" y="29">
+   <polyline points="0,0 166,-1 165,67 196,99 196,158 318,159 293,132 223,132 223,29 319,30 319,-2 483,-2 484,63 606,64 583,38 511,37 511,-2 703,-2 677,30 704,68 675,99 576,101 550,127 707,127 708,321 674,355 514,356 515,289 670,288 670,223 644,196 607,197 581,222 644,223 644,258 482,261 485,357 -34,359 -33,127 158,128 132,100 -3,100 -2,-1"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="object" width="25" height="15">
+  <object name="fire" x="596" y="368"/>
+  <object name="fire" x="630" y="369"/>
+  <object name="fire" x="669" y="369"/>
+  <object name="fire" x="708" y="369"/>
+  <object name="fire" x="684" y="271"/>
+  <object name="fire" x="644" y="270"/>
+  <object name="fire" x="603" y="271"/>
+  <object name="fire" x="568" y="271"/>
+  <object name="monster" x="687" y="215">
+   <properties>
+    <property name="enemy" value="false"/>
+    <property name="plistname" value="monster_5"/>
+   </properties>
+  </object>
+  <object name="monster" x="119" y="119">
+   <properties>
+    <property name="enemy" value="true"/>
+    <property name="plistname" value="monster_2"/>
+   </properties>
+  </object>
+  <object name="monster" x="313" y="146">
+   <properties>
+    <property name="enemy" value="true"/>
+    <property name="plistname" value="monster_1"/>
+   </properties>
+  </object>
+  <object name="monster" x="719" y="114">
+   <properties>
+    <property name="enemy" value="true"/>
+    <property name="plistname" value="monster_3"/>
+   </properties>
+  </object>
+  <object name="iron_v" x="445" y="230">
+   <properties>
+    <property name="bottom" value="80"/>
+    <property name="speed" value="2"/>
+    <property name="top" value="450"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

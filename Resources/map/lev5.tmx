@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="25" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tiled" tilewidth="32" tileheight="32">
+  <image source="tiled.png" width="192" height="192"/>
+ </tileset>
+ <layer name="mpic" width="25" height="15">
+  <data encoding="base64" compression="zlib">
+   eJzVk0ELgCAMhUcdtMAudSmC/P+/sgRHa6Qu56XBg8HI77lnFgAmhaxAA+jqEHjQMkplKhnzpSWqY9obMbBWeO7dJ+ZfGMF/T3rJ+VLGRvqR9A7ubPmOcCZl0HMNY5ZKmkfwhBmjN541FfVQm7kD+T+neVc5TisGfv/G8HFO31Zutzml7lGa/1Unhb4Hug==
+  </data>
+ </layer>
+ <objectgroup name="ground" width="25" height="15">
+  <object x="419" y="99">
+   <polyline points="0,0 222,-2 250,26 218,25 158,91 186,121 62,121 61,89 31,88 31,65 59,64 94,27 0,26 -1,0"/>
+  </object>
+  <object x="28" y="26">
+   <polyline points="0,0 483,1 512,35 744,34 743,101 679,163 678,192 742,191 742,325 709,360 644,361 672,328 673,259 645,230 420,231 384,197 382,135 325,135 325,160 356,161 356,234 286,233 288,196 261,166 262,258 391,257 391,290 421,290 422,323 454,323 455,359 -2,361 -2,-1"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="object" width="25" height="15">
+  <object name="circle" x="438" y="81">
+   <properties>
+    <property name="sprite_name" value="circle.png"/>
+   </properties>
+  </object>
+  <object name="monster" x="504" y="78">
+   <properties>
+    <property name="enemy" value="true"/>
+    <property name="plistname" value="monster_2"/>
+   </properties>
+  </object>
+  <object name="wood" x="389" y="145">
+   <properties>
+    <property name="sprite_name" value="wood.png"/>
+   </properties>
+  </object>
+  <object name="wood" x="540" y="242">
+   <properties>
+    <property name="sprite_name" value="wood.png"/>
+   </properties>
+  </object>
+  <object name="monster" x="463" y="240">
+   <properties>
+    <property name="enemy" value="true"/>
+    <property name="plistname" value="monster_3"/>
+   </properties>
+  </object>
+  <object name="monster" x="631" y="243">
+   <properties>
+    <property name="enemy" value="true"/>
+    <property name="plistname" value="monster_3"/>
+   </properties>
+  </object>
+  <object name="fire" x="699" y="375"/>
+  <object name="fire" x="728" y="374"/>
+  <object name="monster" x="359" y="242">
+   <properties>
+    <property name="enemy" value="false"/>
+    <property name="plistname" value="monster_5"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
