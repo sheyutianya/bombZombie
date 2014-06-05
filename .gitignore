@@ -213,4 +213,5 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+
 proj.win32/Debug.win32
