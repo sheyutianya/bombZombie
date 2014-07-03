@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <filePath>C:\Users\Administrator\Desktop\selectlayer\selectlayer.xml.ui</filePath>
+  <Version>1.1.0.0</Version>
+  <Name>selectlayer</Name>
+  <ProjectDir>C:\Users\Administrator\Desktop\selectlayer</ProjectDir>
+  <JsonFileName>selectlayer.json</JsonFileName>
+  <Resources>C:\Users\Administrator\Desktop\selectlayer\Resources</Resources>
+  <JsonFolder>C:\Users\Administrator\Desktop\selectlayer\Json</JsonFolder>
+  <JsonList>
+    <string>selectlayer_1.json</string>
+  </JsonList>
+  <imageFileList />
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>selectlayer_1.json</CurrentUIJson>
+  <CanvasSize>
+    <Width>800</Width>
+    <Height>480</Height>
+  </CanvasSize>
+</UIProject>
